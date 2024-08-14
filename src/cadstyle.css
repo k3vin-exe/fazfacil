@@ -1,0 +1,145 @@
+:root {
+    --azul-fraco: white;
+    --azul-forte: #4ca2e4;
+}
+
+body{
+    background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+    background-attachment: fixed;
+    display: grid;
+    justify-content: center;
+    color: var(--azul-forte);
+}
+
+.tudo{
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: var(--azul-fraco);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo1 {
+    text-align: left;
+    font-size: xx-large;
+}
+
+input {
+    padding-right: 120px;
+    padding-left: 15px;
+    border: solid var(--azul-forte);
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+
+}
+
+h1{
+    font-size: x-large;
+}
+
+#nascimento{
+    padding-right: 195px;
+    color: black;
+}
+
+#titulo2 {
+    text-align: left;
+    font-size: xx-large;
+}
+
+
+input[type=number] {
+    appearance: textfield; /* Firefox */
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Safari, Chrome, etc. */
+    margin: 0; /* Optional */
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+#tfinal {
+    text-align: left;
+    font-size: x-large;
+}
+
+
+
+label{
+    font-size: x-large;
+}
+
+#prestar{
+    margin-left: 25px;   
+}
+
+#contratar{
+    text-align: right;
+}
+
+.che1{
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 15px 15px;
+    margin-bottom: -10px;
+    transition: 0.5s;
+    
+}
+
+.che1:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.che2:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.che2{
+   margin-bottom: -10px;
+    padding: 15px 15px;
+    transition: 0.5s;
+} 
+
+button {
+    padding: 20px 100px 20px 100px;
+    margin-top: 30px;
+    border: solid var(--azul-forte);
+    border-radius: 20px;
+    font-size: x-large;
+    background-color: white;
+    color: var(--azul-forte);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: var(--azul-forte);
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.botao{
+    display: grid;
+    justify-content: center;
+
+}
+
+input[type="radio"]{
+    appearance: none;
+    background-color:   white;
+
+}
+input[type="radio"]:checked {
+    background-color: var(--azul-forte);
+}
+
+

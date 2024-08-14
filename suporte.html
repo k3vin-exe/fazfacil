@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/navstyle.css">
+    <link rel="shortcut icon" href="../src/favicon.ico" type="image/x-icon">
+    <title>Suporte</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "67yDfMULesTqXzCaP",
+            });
+        })();
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+            background-attachment: fixed;
+            margin-top: 10vh;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            /* color: #333; */
+        }
+
+        h2 {
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            /* color: #1d1c1c; */
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        /* 
+        p {
+            color: #444;
+        }
+ */
+
+
+        /* Estilo para os blocos de perguntas e respostas */
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        /*NAV BAR*/
+
+        .nome {
+            color: white;
+        }
+
+        .duvida {
+            margin-inline: auto;
+            margin-block: 50px;
+            border-radius: 15px;
+            color: #4ca2e4;
+            background-color: white;
+            width: 650px;
+            height: 500px;
+            
+        }
+
+        .container {
+            font-size: 20pt;
+            padding-left: 37px;
+            display: flex;
+            
+        }
+
+        html {
+            height: 180vh;
+        }
+
+        .btn {
+            width: 180px;
+            height: 50px;
+            margin-left: 230px;
+            font: bold 16pt Arial;
+            color: #4ca2e4;
+            border-color: #4ca2e4;
+            border-width: 3px;
+            border-radius: 10px;
+            background: white;
+            transition: 0.5s;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background: #4ca2e4;
+            color: white;
+            width: 210px;
+            margin-left: 215px;
+            /* height: 70px; */
+            font-size: 20pt;
+        }
+
+        input {
+            width: 250px;
+            height: 20px;
+            border-color: #4ca2e4;
+            border-radius: 5px;
+        }
+
+        textarea {
+            border-color: #4ca2e4;
+            border-radius: 5px;
+        }
+
+        .mensagem {
+            margin-left: 40px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../src/logo.png" alt="Logo" id="logo">
+                <p class="nome">FAZ<span style="color: yellow; font-style: italic;">FÁCIL</span></p>
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="#" onclick="logL()">Login</a></li>
+                <li><a href="#" onclick="logC()">Cadastrar-se</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="#" onclick="logP()"><img src="../src/profile.png" alt="perfil" class="pfp"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Perguntas Frequentes</h1>
+
+    <div class="faq-item">
+        <h2>Maria Izadora Santana</h2>
+        <h3>Como vou saber se é confiável?</h3>
+        <p>O sistema trabalha com verificações de contas e avaliações do trabalho realizado pelas pessoas cadastradas no
+            site.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>Arlete Sampaio</h2>
+        <h3>O trabalhador pode vir em qualquer horário em minha casa?</h3>
+        <p>Neste caso, você deverá entrar em contato com o prestador e verificar em que horário ele poderá ir em sua
+            residência, para chegar a uma concordância. O site recomenda que os trabalhos sejam feitos em horário
+            comercial, mas entende que nem sempre os trabalhadores podem ter essa flexibilidade.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>Paulo Congo</h2>
+        <h3>E se eu combinar com o trabalhador e ele não aparecer na minha casa?</h3>
+        <p>Se, por acaso, o trabalhador não comparecer à sua residência, você pode fazer uma avaliação negativa e deixar
+            outros usuários cientes do fato.</p>
+    </div>
+
+    <div class="faq-item">
+        <h2>Jair Inacio</h2>
+        <h3>E se eu pagar adiantado e a pessoa não vir?</h3>
+        <p>Nós não recomendamos o pagamento de trabalhos adiantados, por isso não é disponibilizada nenhuma forma de
+            pagamento no site. Providenciamos o número de telefone no perfil para ligar ou mandar mensagens pelo
+            Whatsapp. Para evitar golpes, sugerimos que não paguem qualquer valor adiantado ao prestador.</p>
+
+    </div>
+
+    <div class="faq-item">
+        <h2>Marcelo Marsal</h2>
+        <h3>O site reembolsa se o trabalho estiver mal feito?</h3>
+        <p>Não, o site não se responsabiliza por qualquer avaria no trabalho prestado, mas faz o máximo possível para
+            que a experiência do usuário seja positiva.</p>
+    </div>
+    <div class="duvida">
+        <br>
+        <h1>Ainda com dúvidas? Conta pra gente!</h1>
+        
+        <div class="container">
+            <div class="dados">
+                <label for="name">Nome completo:</label>
+                <br>
+                <input type="text" name="name" id="name">
+                <br>
+
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br>
+                
+                <label for="phone">Telefone:</label>
+                <br>
+                <input type="text" name="phone" id="phone">
+                
+            </div>
+            <br>
+            <div class="mensagem">
+                <br>
+                <textarea name="message" id="message" rows="14" cols="35" placeholder="Mensagem"></textarea>
+                
+            </div>
+
+            <!-- <div>
+                <button type="button" class="btn" onclick="sendMail()">Enviar</button>
+            </div> -->
+        </div>
+
+    
+        <br>
+        <button type="button" class="btn" onclick="sendMail()">Enviar</button>
+    
+
+    </div>
+
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
+<!-- <div class="footer">
+    <h1>Qual sua duvida?</h1>
+    <input type="Digite aqui">
+    <h1>Nao encontrou solucao? Entre em contato conosco</h1>
+    <h1>fazfacil@gmail.com</h1>
+</div> -->

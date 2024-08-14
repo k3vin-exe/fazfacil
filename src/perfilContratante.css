@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    color: #4ca2e4;
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px 200px 80px 200px;
+    padding: 50px 0px 50px 0px;
+}
+
+.pessoal{
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.inicio{
+    color: white;
+}
+
+.nota{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 90px;
+    
+}
+
+input{
+    color: #4ca2e4;
+    border: solid #4ca2e4;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 100px 5px 5px;
+}
+
+.button{
+     margin-top: 50px;
+     padding: 15px 70px 15px 70px;
+    border: solid #4ca2e4;
+    border-radius: 20px;
+    font-size: x-large;
+    background-color: white;
+    color: #4ca2e4;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+button:hover{
+    background-color: #4ca2e4;
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.pfpimg {
+    margin-top: 50px;
+}
+
+#desc {
+    border-color: #4ca2e4;
+    border-width: 3px;
+    border-radius: 12px;
+}

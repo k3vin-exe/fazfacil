@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/navstyle.css">
+    <link rel="stylesheet" href="src/footer.css">
+    <title>Serviços</title>
+    <style>
+        main {
+            margin-top: 10vh;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 0; /* Adicionado para evitar margem superior extra */
+        }
+
+        .footer {
+            text-align: center;
+            margin-bottom: 20px; /* Adicionado espaçamento abaixo do .footer */
+        }
+
+        .footer h2 {
+            color: #131212;
+            margin-bottom: 10px;
+            font-size: 1.2em; /* Ajuste no tamanho da fonte */
+        }
+
+        .footer input[type="text"] {
+            padding: 8px;
+            width: 300px;
+            font-size: 1em; /* Ajuste no tamanho da fonte */
+        }
+
+        .servico {
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adicionado sombra suave */
+        }
+
+        .servico h2 {
+            color: #333;
+            font-size: 1.3em; /* Ajuste no tamanho da fonte */
+            margin-bottom: 5px;
+        }
+
+        .servico h3 {
+            color: #555;
+            font-size: 1em; /* Ajuste no tamanho da fonte */
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../src/logo.png" alt="Logo" id="logo">
+                <p class="nome">FAZ<span style="color: yellow; font-style: italic;">FÁCIL</span></p>
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="#" onclick="logL()">Login</a></li>
+                <li><a href="#" onclick="logC()">Cadastrar-se</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="#" onclick="logP()"><img src="../src/profile.png" alt="perfil" class="pfp"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Serviços</h1>
+        <div class="footer">
+            <h2>Qual o trabalho que você procura?</h2>
+            <input type="text" placeholder="Digite aqui">
+        </div>
+        <!-- Lista de serviços -->
+        <div class="servico">
+            <h2>Jose Bica</h2>
+            <h3>Conserto de máquinas de lavar</h3>
+        </div>
+        <div class="servico">
+            <h2>Joel do Santos</h2>
+            <h3>Conserto de eletrônicos</h3>
+        </div>
+        <div class="servico">
+            <h2>Marlete Sampaio</h2>
+            <h3>Costureira</h3>
+        </div>
+        <div class="servico">
+            <h2>Jurandir Almeida</h2>
+            <h3>Eletricista</h3>
+        </div>
+        <div class="servico">
+            <h2>Laercio Botega</h2>
+            <h3>Conserto de Computadores</h3>
+        </div>
+        <div class="servico">
+            <h2>Maria Izabel Almeida</h2>
+            <h3>Cartomante</h3>
+        </div>
+        <div class="servico">
+            <h2>Arnaldo Sacomani</h2>
+            <h3>Carpinteiro</h3>
+        </div>
+        <div class="servico">
+            <h2>Machado de Assis</h2>
+            <h3>Marceneiro</h3>
+        </div>
+        <div class="servico">
+            <h2>Beatriz Souza</h2>
+            <h3>Boleira</h3>
+        </div>
+        <div class="servico">
+            <h2>Chico Noelas</h2>
+            <h3>Pedreiro</h3>
+        </div>
+        <div class="servico">
+            <h2>Diogo Dafanti</h2>
+            <h3>Pedreiro</h3>
+        </div>
+        <div class="servico">
+            <h2>Nicolas Ferreira</h2>
+            <h3>Metalúrgico</h3>
+        </div>
+        <div class="servico">
+            <h2>Amanda Xavier</h2>
+            <h3>Costureira</h3>
+        </div>
+        <div class="servico">
+            <h2>Kenie Sul</h2>
+            <h3>Pedreiro</h3>
+        </div>
+        <div class="servico">
+            <h2>Joao Mendes</h2>
+            <h3>Pintor</h3>
+        </div>
+    </main>
+    <footer id="suporte">
+        <div class="fContent">
+            <a href="suporte.html">
+                <div class="saclogo">
+                    <img src="../src/sacIMP.png" alt="sac" class="sac">
+                    <h1>Suporte</h1>
+                </div>
+            </a>
+        </div>
+        <div class="line"></div>
+        <div class="duvidas">
+            <p><strong>Dúvidas? Fale conosco:</strong></p>
+            <p>(49) 99933-0101</p>
+            <p>douglas.junior@edu.sc.senai.br</p>
+        </div>
+        <div class="line"></div>
+        <div class="duvidas">
+            <p><strong>FAZ FÁCIL LTDA.</strong></p>
+            <p>&copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

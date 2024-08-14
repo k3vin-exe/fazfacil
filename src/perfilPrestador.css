@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00055B;
+}
+
+
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    color: #4ca2e4;
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px 200px 50px 200px;
+    padding: 50px 0px 50px 0px;
+}
+
+.pessoal{
+    color: #4ca2e4;
+    margin-left: -100px;
+    width: 700px;
+    font-size: 16pt;
+}
+
+.inicio{
+    color: white;
+}
+
+.nota{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 90px;
+    
+}
+
+input{
+    
+    border: solid #4ca2e4;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 100px 5px 5px;
+}
+
+
+.servicos{
+    display: flex;
+}
+
+.nome{
+    display: flex;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.comentarios{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0px 20px 30px;
+    margin-right: 200px;
+    color: #313129;
+}
+
+
+.imagens{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#img1{
+    border-radius: 20px;
+}
+
+#img2{
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.cima{
+    color: white;
+    margin-left: 200px;
+    font-size: x-large;
+    
+}
+
+.classificacao {
+    text-align: center;
+    color: orange;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    font: bold 16pt Arial;
+    color: #ff3a3a;
+    border-color: #ff3a3a;
+    border-width: 3px;
+    border-radius: 10px;
+    background: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #ff3a3a;
+    color: white;
+    width: 150px;
+    height: 70px;
+    font-size: 20pt;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/cadstyle.css">
+    <link rel="stylesheet" href="src/navstyle.css">
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="src/logo.png" alt="Logo" id="logo">
+                <p class="nome">FAZ<span style="color: yellow; font-style: italic;">FÁCIL</span></p>
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="#" onclick="logL()">Login</a></li>
+                <li><a href="#" onclick="logC()">Cadastrar-se</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="#" onclick="logP()"><img src="src/profile.png" alt="perfil" class="pfp"></a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="tudo">
+    <form id="formulario">
+        <div class="cadastro">
+            <h2 id="titulo1">Cadastro FAZ FÁCIL</h2>
+            <h1>Nome:</h1>
+            <input id="nome" type="text" required>
+            <h1>Sobrenome:</h1>
+            <input id="sobrenome" type="text" required>
+            <h1>Data de nascimento:</h1>
+            <input id="nascimento" type="date" required>
+            <h1>CPF:</h1>
+            <input id="cpf" type="number" required>
+            <h1>E-mail:</h1>
+            <input id="email" type="email" required>
+            <h1>Senha:</h1>
+            <input id="senha1" type="password" required>
+            <h1>Digite sua senha novamente:</h1>
+            <input id="senha2" type="password" required>
+        </div>
+        <div class="endereco">
+            <h2 id="titulo2">Endereço</h2>
+            <div class="lado1">
+                <h1 id="rua">Rua:</h1>
+                <input type="text" required>
+                <h1 id="bairro">Bairro:</h1>
+                <input type="text" required>
+                <h1 id="complemento">Complemento:</h1>
+                <input type="text" required>
+            </div>
+            <div class="lado2">
+                <h1 id="numero">Número:</h1>
+                <input type="number" required>
+                <h1 id="cidade">Cidade:</h1>
+                <input type="text" required>
+                <h1 id="ref">Ponto Referência:</h1>
+                <input type="text" required>
+            </div>
+            <div class="final">
+                <h1 id="tfinal">Você vai Prestar ou Contratar <br> um serviço:</h1>
+                <!-- <label id="prestar" for="">Prestar</label>
+                <input class="che1" type="checkbox">
+                <label id="contratar" for="">Contratar</label>
+                <input class="che2" type="checkbox"> -->
+                <label for="prestar">Prestar</label>
+                <input type="radio" name="prescon" id="prestar" class="che1" checked>
+                <label for="contratar">Contratar</label>
+                <input type="radio" name="prescon" id="contratar" class="che2">
+        
+        
+            </div>
+            <div class="botao">
+                <button id="cadButton" onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="src/script.js"></script>
+</body>
+</html>
+
+
+

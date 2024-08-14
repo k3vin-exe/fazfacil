@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4ca2e4;
+    font: normal 18pt Arial;
+    height: 10vh;
+    padding-top: 10vh;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    margin: 10px;
+}
+
+.nome {
+    margin-block: auto;
+    font: bold 50pt Arial;
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background: #4ca2e4e8;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+}
+
+.nav-list li {
+    margin-left: 20px;
+    margin-block: auto;
+}
+
+.pfp {
+    width: 60px;
+    height: 60px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bloco {
+    font: bold 30pt Arial;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.bloco h1 {
+    font-size: 80pt;
+    color: white;
+    text-align: start;
+    line-height: 8rem;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+    padding-block: 100px;
+    scroll-margin-top: 10vh;
+    
+
+}
+
+.b1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sobre {
+    text-align: center;
+    scroll-margin-top: 25vh;
+}
+
+h1{
+    font-size: 50pt;
+    margin-block: 80px;
+}
+
+.serv{
+    height: 500px;
+    box-shadow: 8px 8px 20px 5px rgba(0, 0, 0, 0.404) ;
+    border-radius: 0px 20%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background: linear-gradient(to bottom, #4ca2e4, #00055b);
+    padding-bottom: 20vh;
+}
+
+.equipe {
+    height: 400px;
+    border-radius: 20% 0px;
+    box-shadow: 8px 8px 20px 5px rgba(0, 0, 0, 0.404) ;
+}
+
+.sNos {
+    text-align:justify;
+    font-size: 21pt;
+    width: 700px;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 0, 53);
+    height: 250px;
+}
+
+.fContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.sac{
+    height: 150px;
+}
+
+.saclogo{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+}
+
+.duvidas h1{
+    color: #6e6e6e;
+    font-size: 20pt;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    height: 249px;
+    color: #6e6e6e;
+    font-size: 15pt;
+}
+
+.line {
+    background: #6e6e6e;
+    height: 200px;
+    width: 4px;
+    border-radius: 50% 50%;
+}

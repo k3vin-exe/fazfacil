@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="src/navstyle.css">
+    <link rel="stylesheet" href="src/perfilPrestador.css">
+    <link rel="stylesheet" href="src/footer.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="src/logo.png" alt="Logo" id="logo">
+                <p class="nome">FAZ<span style="color: yellow; font-style: italic;">FÁCIL</span></p>
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="#" onclick="logL()">Login</a></li>
+                <li><a href="#" onclick="logC()">Cadastrar-se</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="#" onclick="logP()"><img src="src/profile.png" alt="Perfil" class="pfp"></a></li>
+                <!-- href="perfilPrestador.html" --> 
+            </ul>
+        </nav>
+    </header>
+
+    <div class="perfil">
+        <div class="incio">
+            <img class="logo" src="src/profile.png" width="300px" alt=""
+                style="border: 4px solid #4ca2e4; border-radius: 500px;">
+        </div>
+        <div class="pessoal">
+            
+        </div>
+        <div class="classificacao">
+            <h1 class="nota">5.0</h1>
+            <img src="src/estrelas.png" width="200px" alt="">
+            <br>
+            <br>
+            <button type="button" class="btn" onclick="logout()">Sair</button>
+        </div>
+    </div>
+
+    <div class="cima">
+        <h1>Serviços</h1>
+        <p>Faxineiro e Eletricista</p>
+    </div>
+
+    <div class="servicos">
+        <div class="imagens">
+            <img id="img1" src="src/limpa.png" width="600px" alt="">
+            <img id="img2" src="src/tomada.png" width="600px" alt="">
+        </div>
+
+        
+        <div>
+            <div class="comentarios">
+                <div class="logo2">
+                    <img src="src/profile.png" width="80px" alt="">
+                    <h1>Antedeguemon</h1>
+                </div>
+                <div class="coment">
+                    <br>
+                    <p>lsydgfpaygrbfkargaetrhstrfhsrtgfhsrt
+                        sghshsrthsfghsrthathsysrthstghytiuyolijsfghaeyrsth
+                        jdyjsrtuyartytutikudhjkstyujsrytwrtyhwrtg
+                    </p>
+                </div>
+            </div>
+
+            <div class="comentarios">
+                <div class="logo2">
+                    <img src="src/profile.png" width="80px" alt="">
+                    <h1>Antônio Aguiar</h1>
+                </div>
+                <div class="coment">
+                    <br>
+                    <p>lsydgfpaygrbfkargaetrhstrfhsrtgfhsrt
+                        sghshsrthsfghsrthathsysrthstghytiuyolijsfghaeyrsth
+                        jdyjsrtuyartytutikudhjkstyujsrytwrtyhwrtg
+                    </p>
+                </div>
+            </div>
+
+            <div class="comentarios">
+                <div class="logo2">
+                    <img src="src/profile.png" width="80px" alt="">
+                    <h1>Geraldo Alckmin</h1>
+                </div>
+                <div class="coment">
+                    <br>
+                    <p>lsydgfpaygrbfkargaetrhstrfhsrtgfhsrt
+                        sghshsrthsfghsrthathsysrthstghytiuyolijsfghaeyrsth
+                        jdyjsrtuyartytutikudhjkstyujsrytwrtyhwrtg
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        <footer id="suporte">
+            <div class="fContent">
+                <a href="suporte.html">
+                    <div class="saclogo">
+                        <img src="src/sacIMP.png" alt="sac" class="sac">
+                        <h1>Suporte</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="duvidas">
+                <p><strong>Dúvidas? Fale conosco:</strong></p>
+                <p>(49) 99933-0101</p>
+                <p>douglas.junior@edu.sc.senai.br</p>
+            </div>
+            <div class="line"></div>
+            <div class="duvidas">
+                <p><strong>FAZ FÁCIL LTDA.</strong></p>
+                <p>&copy; Todos os direitos reservados</p>
+            </div>
+        </footer>
+    <script src="src/script.js"></script>
+</body>
+</html>

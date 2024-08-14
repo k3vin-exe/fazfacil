@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 0, 53);
+    height: 250px;
+}
+
+.fContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.sac{
+    height: 150px;
+}
+
+.saclogo{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+}
+
+.duvidas h1{
+    color: #6e6e6e;
+    font-size: 20pt;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    height: 249px;
+    color: #6e6e6e;
+    font-size: 15pt;
+}
+
+.line {
+    background: #6e6e6e;
+    height: 200px;
+    width: 4px;
+    border-radius: 50% 50%;
+}

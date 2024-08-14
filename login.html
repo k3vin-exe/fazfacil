@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/navstyle.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+    <style>
+        * {
+            overflow-x: hidden;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom, #4ca2e4 20%, #00055b);
+            background-attachment: fixed;
+            font-size: x-large;
+        }
+
+        .codigo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color:white;
+            width: 45rem;
+            height: 35rem;
+            padding: 50px;
+            border-radius: 10px;
+            margin-top: 5.8vh;
+        }
+
+        .negrito {
+            font-weight: bold;
+            color: #4ca2e4;
+            font-size: 60px;
+        }
+
+        .btn {
+                border-radius: 10px;
+                font-size: medium;
+                border-color: #4ca2e4; 
+                color: #4ca2e4;
+                background-color: white;
+                border: 2px solid #4ca2e4;
+                transition: 0.4s;
+                width: 100px;
+                height: 35px;
+
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: #4ca2e4;
+            color: white;
+            
+        }
+
+        input {
+            outline:none;
+            border-radius: 10px;
+            font-size: medium;
+            border-color: #4ca2e4;
+            background-color: white;
+            border: 2px solid #4ca2e4;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 30px;
+        }
+
+        .cor {
+            color: #4ca2e4;
+            font-size: 48px;
+        }
+
+        .botao {
+            border: none;
+            outline: none;
+            border: 2px solid #4ca2e4;
+        }
+
+        p {
+            color: rgb(53, 53, 53);
+            font-size: 15pt;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="src/logo.png" alt="Logo" id="logo">
+                <p class="nome"><span style="color: white;">FAZ</span><span style="color: yellow; font-style: italic;">FÁCIL</span></p>
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="#" onclick="logL()">Login</a></li>
+                <li><a href="#" onclick="logC()">Cadastrar-se</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="#" onclick="logP()"><img src="src/profile.png" alt="perfil" class="pfp"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="codigo">
+        <div class="logo">
+            <img src="src/logo.png" alt="Logo" id="logo" style="width: 150px; height: 150px;">
+                <p class="nome" style="font-size: 80pt;"><span style="color: #4ca2e4;">FAZ</span><span style="color: orange; font-style: italic;">FÁCIL</span></p>
+        </div>
+        <h2 class="cor">Login</h2>
+        <input type="text" placeholder="E-mail" id="txtemail">
+        <input type="password" name="senha" id="txtsenha" placeholder="Senha">
+        <button type="button" class="btn" onclick="logar()">Login</button>      
+        <p>Não tem uma conta? clique aqui para <a href="cadastro.html" style="color: #001aff;">cadastrar-se</a>.</p>
+    </div>
+    </body>
+
+    <script src="src/script.js"></script>
+</html>
